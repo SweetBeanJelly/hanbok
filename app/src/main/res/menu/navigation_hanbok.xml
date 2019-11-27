@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_inst"
+        android:icon="@drawable/ic_hanbok_inst"
+        android:title="@string/title_inst"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/ic_hanbok_category"
+        android:title="@string/title_category"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_hanbok_more"
+        android:title="@string/title_more"
+        android:enabled="true"/>
+
+</menu>

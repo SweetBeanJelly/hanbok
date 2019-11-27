@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="DarkGray">#232323</color>
+    <color name="Gray">#FFA7A7A7</color>
+    <color name="Red">#B31B1B</color>
+
+    <color name="P_color1">#FFFAD3</color>
+    <color name="P_color2">#E7E7E7</color>
+    <color name="P_color3">#BFAFE7</color>
+
+    <color name="P_color4">#9D2D21</color>
+    <color name="P_color5">#E2B5B3</color>
+    <color name="P_color6">#D75E55</color>
+
+
+</resources>
