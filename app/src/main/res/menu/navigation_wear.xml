@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="한복 입는 순서"
+        />
+
+    <item
+        android:id="@+id/item2"
+        android:title="속옷 입기와 버선 신는 방법"
+        />
+
+    <item
+        android:id="@+id/item3"
+        android:title="고름 매는 방법"
+        />
+
+    <item
+        android:id="@+id/item4"
+        android:title="여자 한복 바르게 입기"
+        />
+
+    <item
+        android:id="@+id/item5"
+        android:title="남자 한복 바르게 입기"
+        />
+
+    <item
+        android:id="@+id/item6"
+        android:title="맵시 있는 한복 차림새"
+        />
+
+    <item
+        android:id="@+id/item7"
+        android:title="한복 입을 때 바른 자세"
+        />
+
+    <item
+        android:id="@+id/item8"
+        android:title="한복 손질 및 보관"
+        />
+</menu>

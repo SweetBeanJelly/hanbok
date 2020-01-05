@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/default_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  기본 매듭 짓기"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/default_image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_1" />
+
+                    <TextView
+                        android:id="@+id/default_sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="두 고름을 양손에 잡고, 오른쪽 길에 있는 짧은 고름을 긴 고름 위에 얹어 교차시킨다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/default_image2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_2" />
+
+                    <TextView
+                        android:id="@+id/default_sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="짧은 고름을 긴 고름 밑으로 돌려 위쪽으로 잡아 빼면, 두 개의 고름이 매어진다." />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/make1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  매듭고 만들기 1"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make1_image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_8" />
+
+                    <TextView
+                        android:id="@+id/make1_sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="위쪽에 놓인 짧은 고름을 둥글게 돌려 잡아 매듭고를 만든다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make1_image2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_9" />
+
+                    <TextView
+                        android:id="@+id/make1_sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="긴 고름을 '1'에서 만들어놓은 짧은 고름의 둥근 매듭고 속으로 넣는다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make1_image3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_10" />
+
+                    <TextView
+                        android:id="@+id/make1_sub3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="긴 고름을 왼쪽 고대 끝 위치까지 잡아 빼면서 짧은 고름을 아래로 잡아당겨 단단히 고정한다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make1_image4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_7" />
+
+                    <TextView
+                        android:id="@+id/make1_sub4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="두 고름을 가지런히 밑으로 늘어뜨린다." />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/make2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  매듭고 만들기 2"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_1" />
+
+                    <TextView
+                        android:id="@+id/make2_sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="두 고름을 양손에 잡고, 오른쪽 길에 있는 짧은 고름을 긴 고름 위에 얹어 교차시킨다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_2" />
+
+                    <TextView
+                        android:id="@+id/make2_sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="짧은 고름을 긴 고름 밑으로 돌려 위쪽으로 잡아 빼면, 두 개의 고름이 매어진다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_3" />
+
+                    <TextView
+                        android:id="@+id/make2_sub3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="긴 고름을 접어 왼쪽으로 향하도록 고를 만든다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_4" />
+
+                    <TextView
+                        android:id="@+id/make2_sub4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="'3'에서 긴 고름으로 만들어 놓은 고를 짧은 고름으로 위에서 아래(화살표 표시 참고)로 감싼다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_5" />
+
+                    <TextView
+                        android:id="@+id/make2_sub5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="'2'에서 감싸는 짧은 고름을 사진의 화살표와 같이 고를 감싸는 뒤쪽으로 넣는다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_6" />
+
+                    <TextView
+                        android:id="@+id/make2_sub6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="짧은 고름을 잡아 빼면서 아래로 잡아당긴다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/make2_image7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear3_7" />
+
+                    <TextView
+                        android:id="@+id/make2_sub7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="짧은 고름과 긴 고름, 두 개의 고름을 당기면서 단단히 고정한 후, 두 고름을 가지런히 밑으로 늘어뜨린다. 왼쪽 고의 길이는 왼쪽 고대 끝 위치까지만 잡아당긴다." />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</ScrollView>

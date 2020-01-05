@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여자 한복의 구조와 명칭"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="여자 한복에는 치마, 저고리가 있고, 저고리는 반회장저고리와 삼회장저고리, 색동저고리가 있다." />
+
+        <TextView
+            android:id="@+id/skirt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  치마"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/skirt_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="치마폭과 허리, 허리끈으로 구성되어 있다." />
+
+        <ImageView
+            android:id="@+id/skirt_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female1" />
+
+        <TextView
+            android:id="@+id/base_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  저고리"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/base_top_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female2" />
+
+        <ImageView
+            android:id="@+id/base_top_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female3" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="여자 저고리의 종류"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  민저고리"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="깃, 고름 등에 회장을 덧 대지 않은 저고리를 말한다." />
+
+        <ImageView
+            android:id="@+id/top1_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female4" />
+
+        <TextView
+        android:id="@+id/top2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/Red"
+        android:text="·  반회장저고리"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top2_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="깃, 고름, 끝동에 회장을 댄 저고리를 말한다." />
+
+        <ImageView
+            android:id="@+id/top2_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female5" />
+
+        <TextView
+            android:id="@+id/top3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  삼회장저고리"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top3_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="깃, 고름, 끝동, 곁마기에 회장을 댄 저고리를 말한다." />
+
+        <ImageView
+            android:id="@+id/top3_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female6" />
+
+        <TextView
+            android:id="@+id/top4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  색동저고리"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top4_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="색동 소매가 달린 저고리를 말한다." />
+
+        <ImageView
+            android:id="@+id/top4_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_female7" />
+
+    </LinearLayout>
+</ScrollView>

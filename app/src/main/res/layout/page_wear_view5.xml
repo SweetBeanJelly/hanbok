@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남자 한복 입는 방법"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="현대 남자 한복은 배자나, 조끼와 마고자를 입는 2가지의 형태로 주로 입기 때문에, 다음 '배자를 입을 때' , '조끼와 마고자를 입을 때' 와 같이 경우에 따라 맵시 있게 입는다." />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/male_title1_sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="속옷 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title1_sub2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="바지 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title1_sub3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="저고리 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title1_sub5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="배자 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title1_sub6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="두루마기 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title1_sub7"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="매무새" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/male_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  속옷 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_inner_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="남성은 기본 속옷을 입고, 상의 속옷은 V형의 깃 선 밖으로 속옷이 보이지 않도록 속옷의 목선을 주의하여 입도록 한다. " />
+
+        <TextView
+            android:id="@+id/male_pants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  바지 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_pants1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="허리끈 매기" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants1_image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_1" />
+
+                    <TextView
+                        android:id="@+id/male_pants1_sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="남자바지는 큰사폭이 오른쪽 다리에 오도록 입는다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants1_image2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_2" />
+
+                    <TextView
+                        android:id="@+id/male_pants1_sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="양손을 사용하여 바지의 여분을 오른쪽으로 잡은 후 왼쪽으로 넘겨 접는다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants1_image3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_3" />
+
+                    <TextView
+                        android:id="@+id/male_pants1_sub3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="허리끈을 뒤에서 앞 허리가 흘러내리지 않도록 잘 묶은 후 고름과 같은 순서로 매듭 진다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants1_image4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_4" />
+
+                    <TextView
+                        android:id="@+id/male_pants1_sub4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="허리의 윗 쪽을 끈 아래로 접어 정리해 주면, 바지가 흘러내리지 않아 좋다." />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/male_pants2_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="대님 매기" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_5" />
+
+                    <TextView
+                        android:id="@+id/male_pants2_sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="안쪽 복사뼈에 바지의 마루폭 선을 댄다. " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_6" />
+
+                    <TextView
+                        android:id="@+id/male_pants2_sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="바깥쪽으로 돌려 싸서 안쪽 복사뼈에 바지 끝을 댄다. 남은 여분의 바지 단을 안에서 밖으로 접어 바깥쪽 복사뼈에 붙여 정리한다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_7" />
+
+                    <TextView
+                        android:id="@+id/male_pants2_sub3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="대님의 중앙을 복사뼈 안쪽에서 맞춘다. " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_8" />
+
+                    <TextView
+                        android:id="@+id/male_pants2_sub4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="바깥쪽으로 한 바퀴 감아 대님 끝이 복사뼈 안쪽으로 다시 돌아오도록 맞춘다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_9" />
+
+                    <TextView
+                        android:id="@+id/male_pants2_sub5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="대님을 발목 안쪽에서 매듭질 수 있도록 묶은 후, 고름과 같은 순서로 매듭진다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_10" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_11" />
+
+                    <TextView
+                        android:id="@+id/male_pants2_sub7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="바지 끝을 정리하고, 대님이 보이지 않게 바지를 내려서 정리한다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_pants2_image8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_12" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/male_pants_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:background="@color/GrayDoubleMoreLight"
+            android:textColor="@color/GrayMoreDark"
+            android:text="※ 허리띠와 대님은 바지의 색과 동일한 것을 사용하는데, 본 그림 설명에서는 이해를 돕기 위하여 바지와 대님의 색을 다르게 하였음." />
+
+
+        <TextView
+            android:id="@+id/male_top1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  저고리 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_top1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="저고리를 입고 안 고름이 있을 경우, 안 고름을 매고, 겉에 스냅단추가 있을 경우 단추로 기본 여밈을 한다. \n겉고름을 맨 후, 어깨솔기와 고대가 어깨선 뒤로 넘어가지 않도록 약간 앞으로 숙여 정리하고, 진동선의 구김을 정리하여 입는다." />
+
+        <TextView
+            android:id="@+id/male_top2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  배자 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/female_top1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="저고리 위에 배자를 입고, 배자에 있는 단추로 여민 후, 고름을 매어 마무리한다. 고름이 없는 배자인 경우 단추로 마무리한다. \n배자는 소매가 없으므로 어깨선이 어깨 뒤로 넘어가지 않도록 입으면 된다." />
+
+        <TextView
+            android:id="@+id/male_top3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  두루마기 입기"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_top3_image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_13" />
+
+                    <TextView
+                        android:id="@+id/male_top3_sub1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="배자 위에 두루마기를 입고, 옷 안쪽에 있는 안 고름을 매어준다." />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/male_top3_image2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/image_wear5_14" />
+
+                    <TextView
+                        android:id="@+id/male_top3_sub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/GrayMoreDark"
+                        android:text="저고리와 마찬가지로 겉고름을 맨 후, 어깨솔기와 고대가 어깨선 뒤로 넘어가지 않도록 약간 앞으로 숙여 정리하고, 진동선의 구김을 정리하여 입는다. " />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/male_trimming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  매무새"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_trimming_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="두루마기까지 입은 후 진동선의 구김을 정리하고, 저고리의 소매 끝이 두루마기 소매 밖으로 나오지 않도록 소매 끝의 매무새를 정리하도록 한다. 외출할 때는 한복과 어울리는 신발을 신는 것이 좋다." />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="조끼, 마고자를 입을 때"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/male_title2_sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="속옷 입기 (버선)" />
+
+                <ImageView
+                    android:id="@+id/arrow_image6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title2_sub2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="바지 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title2_sub3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="저고리 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title2_sub5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="배자 조끼 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title2_sub6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="마고자 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title2_sub7"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="두루마기 입기" />
+
+                <ImageView
+                    android:id="@+id/arrow_image11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_doublearrow_button" />
+
+                <TextView
+                    android:id="@+id/male_title2_sub8"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:padding="30dp"
+                    android:background="@color/GrayDoubleMoreLight"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/DarkGray"
+                    android:text="매무새" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/male_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  속옷, 바지, 저고리 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_skip_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="위의 배자 입을 때와 같다." />
+
+        <TextView
+            android:id="@+id/male_top4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  조끼 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_top4_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="저고리를 입은 후 그 위에 조끼를 입고, 단추로 정리한다. 이때 어깨선이 어깨 뒤로 넘어가지 않도록 입는다." />
+
+        <TextView
+            android:id="@+id/male_top5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  마고자 입기"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/male_top5_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_wear5_15" />
+
+        <TextView
+            android:id="@+id/bottom_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="조끼 위에는 마고자를 덧입는다. 마고자는 앞이 여며 입는 옷이 아니기 때문에 독특한 단추가 있으므로, 단추 끼우기를 주의하면 된다. \n천으로 된 단추 구멍에 마고자 단추를 아래에서 위로 끼워서 천 고리에 걸리게 한 후, 밑으로 늘어뜨린다. \n저고리와 마찬가지로, 어깨선이 어깨 뒤로 넘어가지 않도록 입고, 진동선의 구김을 정리한다." />
+
+        <TextView
+            android:id="@+id/male_top6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  두루마기 입기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_top6_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="마고자 위에 두루마기를 입고, 옷 안쪽에 있는 안 고름을 매어준다. \n저고리와 마찬가지로 겉고름을 맨 후, 어깨솔기와 고대가 어깨선 뒤로 넘어가지 않도록 약간 앞으로 숙여 정리하고, 진동선의 구김을 정리하여 입는다. " />
+
+        <TextView
+            android:id="@+id/male_top7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  매무새"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/male_top7_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="저고리, 마고자, 두루마기의 진동선의 구김이 엇갈리지 않도록 정리하고, 저고리와 마고자의 소매 끝이 두루마기 소매 밖으로 나오지 않도록 소매 끝의 매무새를 정리하도록 한다." />
+
+    </LinearLayout>
+
+</ScrollView>

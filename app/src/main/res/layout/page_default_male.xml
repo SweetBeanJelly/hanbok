@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남자 한복의 구조와 명칭"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="현대 남자 한복에는 바지, 저고리, 배자, 조끼, 두루마기 등이 있다." />
+
+        <TextView
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  바지"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bottom_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="남자 바지는 폭이 넓고, 마루폭, 사폭, 허리로 구성되어 있다." />
+
+        <ImageView
+            android:id="@+id/bottom_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male1" />
+
+        <TextView
+            android:id="@+id/base_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  저고리"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/base_top_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="길, 소매, 깃, 섶, 동정, 고름 등으로 구성되어 있고, 옷의 앞이 트여 있어서 오른쪽으로 여며 입고 고름으로 묶는다." />
+
+        <ImageView
+            android:id="@+id/base_top_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male2" />
+
+        <ImageView
+            android:id="@+id/base_top_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male3" />
+
+        <TextView
+            android:id="@+id/top1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  배자"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="저고리 위에 입는 소매 없는 옷으로, 좌우 같은 모양의 깃이 달려 있고, 고름이나 단추로 여며 입는다." />
+
+        <ImageView
+            android:id="@+id/top1_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male4" />
+
+        <TextView
+            android:id="@+id/top2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  조끼"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top2_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="저고리 위에 덧입는 소매 없는 옷으로, 개화기 때 양복 베스트(vest)가 들어오면서 전통 옷감으로 만들어 입게 되었다." />
+
+        <ImageView
+            android:id="@+id/top2_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male5" />
+
+        <ImageView
+            android:id="@+id/top2_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male6" />
+
+        <TextView
+            android:id="@+id/top3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  마고자"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top3_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="조끼 위에 입는 옷으로, 깃과 고름이 없고, 단추로 여며 입는 옷이다. 주로 방한용으로 입고, 개화기 때부터 지금까지 조끼와 함께 입고 있다." />
+
+        <ImageView
+            android:id="@+id/top3_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male7" />
+
+        <ImageView
+            android:id="@+id/top3_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male8" />
+
+        <TextView
+            android:id="@+id/top4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  두루마기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/top4_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="누구나 입는 겉옷으로, 남녀 모두 예의를 갖출 때 반드시 입어야 하는 기본 옷이다. 방한용으로도 입는다." />
+
+        <ImageView
+            android:id="@+id/top4_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male9" />
+
+        <ImageView
+            android:id="@+id/top4_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_male10" />
+
+    </LinearLayout>
+</ScrollView>

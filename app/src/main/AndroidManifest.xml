@@ -11,14 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".pagerAdapter.PageWear_View5"></activity>
+        <activity android:name=".pagerAdapter.PageWear_View4" />
+        <activity android:name=".pagerAdapter.PageWear_View3" />
+        <activity android:name=".pagerAdapter.PageWear_View2" />
+        <activity android:name=".pagerAdapter.PageWear_View1" />
+        <activity android:name=".PageWear" />
+        <activity android:name=".PageDefault" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PageHanbok"></activity>
+        <activity android:name=".PageHanbok" />
         <activity android:name=".AdapterHanbok" />
     </application>
 

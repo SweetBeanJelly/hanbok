@@ -3,7 +3,10 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="DarkGray">#232323</color>
-    <color name="Gray">#FFA7A7A7</color>
+    <color name="Gray">#B6B6B6</color>
+    <color name="GrayMoreDark">#4B4B4B</color>
+    <color name="GrayMoreLight">#D8D8D8</color>
+    <color name="GrayDoubleMoreLight">#ECECEC</color>
     <color name="Red">#B31B1B</color>
 
     <color name="P_color1">#FFFAD3</color>

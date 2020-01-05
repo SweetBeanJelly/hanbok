@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="속옷 입는 방법"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title1_1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="여성은 기본 속옷과 와이어나 패드가 없는 브래지어를 입은 다음, 긴 속바지를 입는다. 그 위에 속치마를 입는다. 속치마는 겉치마보다 짧게 입고, 착용 용도와 겉치마의 형태에 따라 폭이 좁은 속치마와 폭이 넓은 속치마를 적절히 선택하여 입는다. 속적삼은 현대 한복 차림에서 계절, 저고리 옷감의 상태 등에 따라 입기도 하고, 안 입기도 한다." />
+
+        <TextView
+            android:id="@+id/title1_2_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="남성은 기본 속옷을 입고, 상의 속옷은 V형의 깃 선 밖으로 속옷이 보이지 않도록 속옷의 목선을 주의하여 입도록 한다. " />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="버선 신는 방법"
+            android:textSize="18sp"
+            android:textColor="@color/DarkGray"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/socks_image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_wear2_1" />
+
+        <ImageView
+            android:id="@+id/socks_image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="13dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/image_wear2_2" />
+
+        <TextView
+            android:id="@+id/socks1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  좌우를 구별하는 법"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/socks1_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="버선의 중앙에 있는 수눅선 솔기의 시접 방향에 따라 좌우를 구별한다. 수눅의 시접이 바깥쪽으로 가도록 신는다. 시접이 오른쪽으로 향하면 오른발, 왼쪽으로 향하면 왼발에 신으면 된다. (빨간색 화살표 참고)" />
+
+        <TextView
+            android:id="@+id/socks2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/Red"
+            android:text="·  버선 신기"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/socks2_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GrayMoreDark"
+            android:text="버선을 신을 때 좌우 버선의 수눅선 솔기가 밖으로 향하도록 주의하여 버선의 좌우를 신는다. 이때, 수눅이 중앙을 마주 보고 살짝 발 안쪽으로 기울어지도록 하여 수눅선이 첫째 발가락과 둘째 발가락 사이에 오도록 신는다. 이렇게 신으면 발 모양이 좁아 보여서 예쁘다. 남성은 흰 양말을 신어도 된다." />
+
+    </LinearLayout>
+</ScrollView>

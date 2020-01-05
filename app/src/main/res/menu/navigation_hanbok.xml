@@ -14,9 +14,9 @@
         android:enabled="true"/>
 
     <item
-        android:id="@+id/navigation_more"
+        android:id="@+id/navigation_wear"
         android:icon="@drawable/ic_hanbok_more"
-        android:title="@string/title_more"
+        android:title="@string/title_wear"
         android:enabled="true"/>
 
 </menu>

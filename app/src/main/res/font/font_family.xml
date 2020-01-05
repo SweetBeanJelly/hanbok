@@ -4,11 +4,16 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/font_batang" />
+        android:font="@font/font_sandol" />
 
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/font_title" />
+        android:font="@font/font_duggubi" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/font_dot" />
 
 </font-family>

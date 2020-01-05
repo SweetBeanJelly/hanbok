@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/drawer"
+    android:layout_gravity="right"
+    android:background="@color/white"
+    android:layout_width="240dp"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btn_exit"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/DarkGray"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_close_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/DarkGray"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:textSize="18sp"
+            android:text="한복 입는 순서" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:text="속옷 입기와 버선 신는 방법"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:text="고름 매는 방법"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:text="여자 한복 바르게 입기"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/DarkGray"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:textSize="18sp"
+            android:text="남자 한복 바르게 입기" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:text="맵시 있는 한복 차림새"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/textview_lines"
+            android:text="한복 입을 때 바른 자세"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="한복 손질 및 보관"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
