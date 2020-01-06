@@ -48,7 +48,7 @@
                     <TextView
                         android:id="@+id/default_sub1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -75,7 +75,7 @@
                     <TextView
                         android:id="@+id/default_sub2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -125,7 +125,7 @@
                     <TextView
                         android:id="@+id/make1_sub1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="65dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -152,7 +152,7 @@
                     <TextView
                         android:id="@+id/make1_sub2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="65dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -179,7 +179,7 @@
                     <TextView
                         android:id="@+id/make1_sub3"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="65dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -206,7 +206,7 @@
                     <TextView
                         android:id="@+id/make1_sub4"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="65dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -256,7 +256,7 @@
                     <TextView
                         android:id="@+id/make2_sub1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -283,7 +283,7 @@
                     <TextView
                         android:id="@+id/make2_sub2"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -310,7 +310,7 @@
                     <TextView
                         android:id="@+id/make2_sub3"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -337,7 +337,7 @@
                     <TextView
                         android:id="@+id/make2_sub4"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -364,7 +364,7 @@
                     <TextView
                         android:id="@+id/make2_sub5"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -391,7 +391,7 @@
                     <TextView
                         android:id="@+id/make2_sub6"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"
@@ -418,7 +418,7 @@
                     <TextView
                         android:id="@+id/make2_sub7"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:textSize="17sp"
                         android:layout_marginTop="8dp"
                         android:gravity="center_vertical|center_horizontal"

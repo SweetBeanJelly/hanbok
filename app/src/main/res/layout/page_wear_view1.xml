@@ -23,10 +23,10 @@
             android:id="@+id/title1_sub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="17sp"
             android:layout_marginTop="8dp"
+            android:text="여자는 속옷부터 겉옷까지 바르게 갖춰 입으면 한복의 태가 멋스럽다."
             android:textColor="@color/GrayMoreDark"
-            android:text="여자는 속옷부터 겉옷까지 바르게 갖춰 입으면 한복의 태가 멋스럽다." />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/female"

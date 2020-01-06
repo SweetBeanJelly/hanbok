@@ -47,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/female_title_sub2"
@@ -67,7 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/female_title_sub3"
@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/female_title_sub5"
@@ -107,7 +107,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/female_title_sub6"

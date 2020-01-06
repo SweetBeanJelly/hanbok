@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import me.relex.circleindicator.CircleIndicator;
 import sweetbeanjelly.project.hanbok.pagerAdapter.PageHanbok_slider;
@@ -22,6 +25,9 @@ public class PageHanbok extends Fragment {
     ViewPager viewPager;
     CircleIndicator indicator;
 
+    private WebView webView;
+    private WebSettings webSettings;
+
     public View onCreateView(@NonNull LayoutInflater inflater,@NonNull ViewGroup container,@NonNull Bundle saveInstanceState){
         View view=inflater.inflate(R.layout.page_hanbok,container,false);
         activity = getActivity();
@@ -32,6 +38,19 @@ public class PageHanbok extends Fragment {
         viewPager.setAdapter(adapter);
         indicator = view.findViewById(R.id.indicator);
         indicator.setViewPager(viewPager);
+
+        webView = (WebView)view.findViewById(R.id.web);
+        webView.setWebViewClient(new WebViewClient());
+        webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setSupportMultipleWindows(false);
+        webSettings.setJavaScriptCanOpenWindowsAutomatically(false);
+        webSettings.setUseWideViewPort(true);
+        webSettings.setSupportZoom(false);
+        webSettings.setBuiltInZoomControls(false);
+        webSettings.setCacheMode(webSettings.LOAD_NO_CACHE);
+        webSettings.setDomStorageEnabled(true);
+        webView.loadUrl("http://www.hanbokcenter.kr/user/nd74363.do");
 
         return view;
     }

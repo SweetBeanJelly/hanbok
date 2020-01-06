@@ -26,7 +26,7 @@
             android:textSize="17sp"
             android:layout_marginTop="8dp"
             android:textColor="@color/GrayMoreDark"
-            android:text="현대 남자 한복은 배자나, 조끼와 마고자를 입는 2가지의 형태로 주로 입기 때문에, 다음 '배자를 입을 때' , '조끼와 마고자를 입을 때' 와 같이 경우에 따라 맵시 있게 입는다." />
+            android:text="현대 남자 한복은 배자나, 조끼와 마고자를 입는 2가지의 형태를 주로 입는다. 다음 '배자를 입을 때' , '조끼와 마고자를 입을 때' 와 같이 경우에 따라 맵시 있게 입는다." />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title1_sub2"
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title1_sub3"
@@ -96,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title1_sub5"
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title1_sub6"
@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title1_sub7"
@@ -188,10 +188,11 @@
             android:id="@+id/male_pants1_sub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="17sp"
             android:layout_marginTop="5dp"
+            android:text="허리끈 매기"
             android:textColor="@color/GrayMoreDark"
-            android:text="허리끈 매기" />
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -317,10 +318,11 @@
             android:id="@+id/male_pants2_sub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="17sp"
             android:layout_marginTop="5dp"
+            android:text="대님 매기"
             android:textColor="@color/GrayMoreDark"
-            android:text="대님 매기" />
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -717,7 +719,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title2_sub2"
@@ -737,7 +739,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title2_sub3"
@@ -757,7 +759,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title2_sub5"
@@ -777,7 +779,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title2_sub6"
@@ -797,7 +799,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title2_sub7"
@@ -817,7 +819,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_doublearrow_button" />
+                    app:srcCompat="@drawable/ic_arrow_button" />
 
                 <TextView
                     android:id="@+id/male_title2_sub8"
